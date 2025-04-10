@@ -1,0 +1,14 @@
+/**:
+  ros__parameters:
+    front_point_num: 90
+    rear_point_num: 5
+    offset: 0.3           # 平滑范围
+    w_cost_smooth: 50.0
+    w_cost_length: 1.0
+    w_cost_ref: 1.0
+
+    is_mini_car: false
+    interval: 0.5
+    left_width: 4.0
+    right_width: 4.0
+    waypoint_path: /root/autoware_data/maps/waypoints.csv

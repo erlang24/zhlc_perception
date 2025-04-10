@@ -1,0 +1,21 @@
+/**:
+  ros__parameters:
+    weight_velocity: 40.0
+    weight_lat_offset: 60.0
+    weight_ac: 1.0
+    weight_collision: 1000.0
+    weight_s: 1.0                #s的权重
+
+    s_dot_low: 1
+    s_dot_up: 2
+    t_low: 5
+    t_up: 10
+
+    obs_influence_dis: 15.0     # 障碍物s方向的距离在obs_influence_dis米以内障碍物对轨迹选择才能造成影响
+    limit_count: 20.0            # 与障碍物在一侧的轨迹点的个数大于limit_count个时才会认为这条轨迹无效
+    effect_tra: 35               # effect_tra个轨迹以上执行巡航才的结果
+    safe_margin: 0.0            # 车辆安全边界距离
+    safe_boundary: 0.0         # 障碍物扩展边界
+    omiga: 0.5                  # 当前轨迹占比权重
+    left_width_: 1.0
+    right_width_: 1.0

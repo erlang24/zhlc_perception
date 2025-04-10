@@ -1,0 +1,49 @@
+/**:
+  ros__parameters:
+    costmap_frame: map
+    vehicle_frame: base_link
+    map_frame: map
+
+    is_stop_obs: false
+    interval_by_dis: false
+    min_turn_radius: 4.5
+    stitch_num: 5           # int 拼接轨迹长度
+    interval: 0.5
+    
+    dp:
+      dp_col_num: 5         # int Path DP 纵向撒点个数
+      delta_s: 8.0          # double 纵向采样间隔
+      delta_l: 1.0          # double 横向采样间隔
+
+      W_cost_ref: 500.0
+      W_cost_collision: 100000.0
+      W_alpha_collision: 10000.0
+      W_beta_collision: 1.0
+      W_cost_smooth_dl: 10.0
+      W_cost_smooth_ddl: 200.0
+      W_cost_smooth_dddl: 0.0
+
+    qp:
+      safe_margin: 0.3          # 障碍物安全距离
+      # dl 和 ddl 相邻两点的差值限制，值越小可以减少扰动，若为0.0，则不使用此约束
+      qp_dl_ddl_diff: 0.0
+      qp_cost_l: 1.0            # reference_line权重
+      qp_cost_dl: 500.0
+      qp_cost_ddl: 10000.0        # 该值越大，避障长度越长，行驶越丝滑
+      qp_cost_dddl: 50000.0
+      qp_cost_center: 100.0      # 该值越大，轨迹越贴合上下界中心
+
+    speed_dp:
+      st_delta_s: 1.5
+      reference_speed: 3.0
+      W_speed_dp_vel_ref: 500.0
+      W_speed_dp_acc: 100.0
+      W_speed_dp_acc_cost: 10000.0
+
+    speed_qp:
+      max_ay: 0.15              # 最大向心加速度限制
+      engage_speed: 0.3
+      max_accel: 0.5
+      speed_w_ref_speed: 10.0
+      speed_w_acc: 1.0
+      speed_w_jerk: 1.0

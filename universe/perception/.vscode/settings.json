@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "utility": "cpp",
+        "vector": "cpp",
+        "string": "cpp",
+        "memory": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "filesystem": "cpp",
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "geometry": "cpp",
+        "functional": "cpp",
+        "stdexcept": "cpp",
+        "fstream": "cpp",
+        "iostream": "cpp",
+        "optional": "cpp"
+    }
+}
