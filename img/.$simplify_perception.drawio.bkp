@@ -1,0 +1,181 @@
+<mxfile host="Electron" modified="2025-04-14T06:53:01.653Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="BiW4RXxXcTnPi2zniLe5" version="23.0.2" type="device">
+  <diagram name="第 1 页" id="AX55LOXbjhewYlsqZZOs">
+    <mxGraphModel dx="1232" dy="-3035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-3" target="Sp77zk6U2tp7ggM77IKP-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5214" y="6348.469999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-2" value="/perception/obstacle_segmentation&lt;br&gt;/pointcloud_map_filtered/downsampled/pointcloud" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-1">
+          <mxGeometry x="-0.0783" y="-1" relative="1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-3" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;voxel_grid_downsample_filter&lt;/span&gt;&lt;br&gt;&lt;code style=&quot;font-size: var(--vscode-editor-font-size); box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: var(--vscode-editor-font-family); color: var(--vscode-textPreformat-foreground); background-color: var(--vscode-textPreformat-background); padding: 1px 3px; border-radius: 4px; font-feature-settings: normal; font-variation-settings: normal; overflow: auto; text-align: left;&quot;&gt;voxel_size_x&lt;/code&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: var(--vscode-editor-font-size); box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: var(--vscode-editor-font-family); color: var(--vscode-textPreformat-foreground); background-color: var(--vscode-textPreformat-background); padding: 1px 3px; border-radius: 4px; font-feature-settings: normal; font-variation-settings: normal; overflow: auto; text-align: left;&quot;&gt;voxel_size_y,&lt;/code&gt;&lt;code style=&quot;font-size: var(--vscode-editor-font-size); box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: var(--vscode-editor-font-family); color: var(--vscode-textPreformat-foreground); background-color: var(--vscode-textPreformat-background); padding: 1px 3px; border-radius: 4px; font-feature-settings: normal; font-variation-settings: normal; overflow: auto; text-align: left;&quot;&gt;oxel_size_z(配置文件读取)&lt;br&gt;&lt;/code&gt;pointcloud_map_filter.launch.py&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="5360" y="6298.469999999999" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-6" target="Sp77zk6U2tp7ggM77IKP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-5" value="&lt;pre style=&quot;border: 1px solid var(--vscode-input-background); color: var(--code-foreground); font-size: var(--vscode-editor-font-size); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: var(--vscode-editor-font-family); font-feature-settings: normal; font-variation-settings: normal; margin-top: 0px; margin-bottom: 0px; padding: calc(var(--spacing) * 0.5); overflow: auto; border-radius: 3px; background-color: var(--code-background);&quot;&gt;&lt;code style=&quot;border-color: rgb(229, 231, 235); box-sizing: border-box; border-width: 0px; border-style: solid; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: var(--vscode-editor-font-family); color: var(--code-foreground); background-color: var(--code-background); padding: 0px; border-radius: 4px; font-feature-settings: normal; font-variation-settings: normal; font-size: var(--vscode-editor-font-size); overflow: auto; margin-bottom: 0px;&quot; class=&quot;hljs language-groovy&quot;&gt;/perception/object_recognition/detection&lt;/code&gt;&lt;/pre&gt;&lt;pre style=&quot;border: 1px solid var(--vscode-input-background); color: var(--code-foreground); font-size: var(--vscode-editor-font-size); box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: var(--vscode-editor-font-family); font-feature-settings: normal; font-variation-settings: normal; margin-top: 0px; margin-bottom: 0px; padding: calc(var(--spacing) * 0.5); overflow: auto; border-radius: 3px; background-color: var(--code-background);&quot;&gt;&lt;code style=&quot;border-color: rgb(229, 231, 235); box-sizing: border-box; border-width: 0px; border-style: solid; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; font-family: var(--vscode-editor-font-family); color: var(--code-foreground); background-color: var(--code-background); padding: 0px; border-radius: 4px; font-feature-settings: normal; font-variation-settings: normal; font-size: var(--vscode-editor-font-size); overflow: auto; margin-bottom: 0px;&quot; class=&quot;hljs language-groovy&quot;&gt;/clustering/clusters&lt;/code&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-4">
+          <mxGeometry x="0.0133" y="2" relative="1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-6" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;euclidean_cluster&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;voxel_grid_based_euclidean_cluster.launch.py&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="6420" y="6318.469999999999" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-9" target="Sp77zk6U2tp7ggM77IKP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-8" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;/perception/object_recognition/detection&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;/clustering/objects_with_feature&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-7">
+          <mxGeometry x="-0.0263" y="1" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-9" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;shape_estimation&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;将点云聚类转换为具有几何形状（如边界框、多边形等）的动态对象&lt;br&gt;shape_estimation.launch.xml&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="7030" y="6303.469999999999" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-12" target="Sp77zk6U2tp7ggM77IKP-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7665" y="6544.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-11" value="&lt;font style=&quot;border-color: var(--border-color); forced-color-adjust: none; background-color: rgb(251, 251, 251);&quot;&gt;/perception/object_recognition&lt;/font&gt;&lt;div style=&quot;border-color: var(--border-color); forced-color-adjust: none; background-color: rgb(251, 251, 251);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); forced-color-adjust: none;&quot;&gt;/detection/clustering/objects&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-10">
+          <mxGeometry x="-0.0734" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-12" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;detected_object_feature_remover&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;将前面处理步骤的结果转换为Autoware&lt;br&gt;标准格式，供后续的跟踪和预测模块使用&lt;br&gt;detected_object_feature_remover.launch.xml&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="7500" y="6288.469999999999" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-15" target="Sp77zk6U2tp7ggM77IKP-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6430" y="6575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-14" value="/perception/object_recognition/detection&lt;br&gt;/centerpoint/objects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-13">
+          <mxGeometry x="0.0181" relative="1" as="geometry">
+            <mxPoint x="4" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-15" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;lidar_centerpoint&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="5824" y="6540" width="286" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Sp77zk6U2tp7ggM77IKP-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5570" y="6575" as="sourcePoint" />
+            <mxPoint x="5620" y="6550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-17" value="/sensing/lidar/concatenated/pointcloud" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-16">
+          <mxGeometry x="-0.0095" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7550" y="6574.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-19" value="/perception/object_recognition/detection&lt;br&gt;/centerpoint/validation/objects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-18">
+          <mxGeometry x="0.0643" relative="1" as="geometry">
+            <mxPoint x="-6" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-20" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;obstacle_pointcloud_based_validator&lt;br&gt;&lt;/font&gt;检测模型输出→验证器&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6430" y="6544.999999999999" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5534" y="6348.469999999999" as="sourcePoint" />
+            <mxPoint x="6592" y="6550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="6070" y="6349" />
+              <mxPoint x="6070" y="6460" />
+              <mxPoint x="6592" y="6460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-24" target="Sp77zk6U2tp7ggM77IKP-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6950.000000000002" y="6805.631578947368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-23" value="/perception/object_recognition&lt;br&gt;/tracking/objects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-22">
+          <mxGeometry x="0.1776" relative="1" as="geometry">
+            <mxPoint x="29" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;multi_object_tracker&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="7575" y="6709.43" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6830" y="6742" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-26" value="/perception/object_recognition/objects" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-25">
+          <mxGeometry x="-0.0111" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;map_based_prediction&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="7120" y="6705" width="200" height="73.86" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.468;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Sp77zk6U2tp7ggM77IKP-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7214" y="6900" as="sourcePoint" />
+            <mxPoint x="6860" y="6890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-29" value="/map/vector_map" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-28">
+          <mxGeometry x="-0.209" y="-1" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-32" target="Sp77zk6U2tp7ggM77IKP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3909.394" y="6339.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-31" value="/perception/obstacle_segmentation&lt;br&gt;/single_frame/pointcloud_raw" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-30">
+          <mxGeometry x="-0.3797" y="-1" relative="1" as="geometry">
+            <mxPoint x="44" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-32" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;common_ground_filter&lt;br&gt;&lt;/font&gt;分割地面&lt;br&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace;&quot;&gt;使用扫描线方法识别地面点&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace;&quot;&gt;基于坡度角度判断地面（全局最大10度，局部最大13度）&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace;&quot;&gt;使用高程网格模式（elevation_grid_mode: true）&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace;&quot;&gt;使用虚拟地面点（use_virtual_ground_point: True）&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace;&quot;&gt;重新检查地面聚类（use_recheck_ground_cluster: true）&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="6283.47" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sp77zk6U2tp7ggM77IKP-35" target="Sp77zk6U2tp7ggM77IKP-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-34" value="/perception/obstacle_segmentation/range_cropped/pointcloud&lt;br&gt;类型:sensor_msgs/msg/PointCloud2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-33">
+          <mxGeometry x="0.0654" y="3" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-35" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;crop_box_filter&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;移除超出范围的点云&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="6320.610000000001" width="206" height="55.71" as="geometry" />
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-36" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Sp77zk6U2tp7ggM77IKP-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3750" y="6348" as="sourcePoint" />
+            <mxPoint x="2620" y="6390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3920" y="6350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sp77zk6U2tp7ggM77IKP-37" value="/sensing/lidar/concatenated/pointcloud" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sp77zk6U2tp7ggM77IKP-36">
+          <mxGeometry x="0.2695" relative="1" as="geometry">
+            <mxPoint x="-41" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
